@@ -16,6 +16,7 @@ export function BreedSelector({ selectedDog, setSelectedDog }: props) {
 
   const handleChange = (e: { target: { value: string | null } }) => {
     setSelectedDog(e.target.value);
+    selectedDog;
   };
 
   function createDogList() {

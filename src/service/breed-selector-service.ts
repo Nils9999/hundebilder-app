@@ -1,6 +1,5 @@
 import { LISTE_HUNDERASSEN_API } from "@/components/constants";
 import { DogBreedData } from "@/components/types";
-import { useQuery } from "@tanstack/react-query";
 
 export async function breedSelector() {
   const response = await fetch(LISTE_HUNDERASSEN_API);
